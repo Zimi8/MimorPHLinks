@@ -1,0 +1,48 @@
+body{
+background-image: url(/Assets/backImgMimorPH.png);
+    background-color: rgb(19, 184, 184);
+    font-family: 'Finlandica', sans-serif;
+}
+
+.perfil_foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 100px;
+    border-radius: 50%;
+    
+}
+.nombre_perfil{
+    text-align: center;
+    padding:30px;
+    font-size: 28px;
+    
+}
+.links{
+    text-align: center;
+    margin-top: 20px;
+    border: 0.9px solid rgb(57, 181, 248);
+    border-width: 2px;
+    
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 7px;
+
+    font-size: 19px;
+}
+
+ a {
+    text-decoration: none;
+    color: rgb(0, 5, 0);
+    transition:  color 1s;
+    font-family: 'Finlandica', sans-serif;
+ }
+ a:hover {
+    color: black;
+    background:rgba(248, 216, 216, 0.436)
+ }
